@@ -6,51 +6,106 @@
   <meta name="theme-color" content="#160822" />
   <meta name="description" content="A birthday memory gallery for Havs" />
   <title>Happy Birthday Havs ✨</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=30" />
 </head>
+
 <body>
   <canvas id="stars" aria-hidden="true"></canvas>
 
+  <div id="entry-screen" class="entry-screen">
+    <button id="enter-button" class="enter-button" type="button">
+      <span class="enter-sparkle">✨</span>
+      Open your birthday universe
+    </button>
+    <p>Best experienced with sound</p>
+  </div>
+
   <header class="hero">
     <p class="eyebrow">A tiny birthday universe</p>
+
     <h1 id="site-title">Happy Birthday Havs ✨</h1>
-    <p id="site-subtitle" class="subtitle">The day the world quietly became a little brighter.</p>
-    <p id="site-instruction" class="instruction">Tap a picture to flip it.</p>
+
+    <p id="site-subtitle" class="subtitle">
+      The day the world quietly became a little brighter.
+    </p>
+
+    <div class="speech-bubble">
+      Every time I look back at our pictures, it’s only because your smile keeps me going.
+    </div>
+
+    <p id="site-instruction" class="instruction">
+      Tap a picture to flip it.
+    </p>
 
     <a class="scroll-cue" href="#memory-gallery" aria-label="Scroll down to the memories">
       <span id="scroll-label">Scroll down to explore</span>
       <span class="scroll-arrow" aria-hidden="true">⌄</span>
     </a>
 
-    <button id="music-button" class="music-button" type="button" hidden aria-pressed="false">
+    <button
+      id="music-button"
+      class="music-button"
+      type="button"
+      hidden
+      aria-pressed="false"
+    >
       ♫ Play music
     </button>
   </header>
 
   <main>
-    <section id="memory-gallery" class="gallery" aria-label="Birthday memories"></section>
+    <section
+      id="memory-gallery"
+      class="gallery"
+      aria-label="Birthday memories"
+    ></section>
+
+    <section class="closing-message" aria-label="Birthday message">
+      <span class="closing-sparkle">✨</span>
+
+      <p>
+        Hun xx… happy birthday! I hope you know how deeply special you are to me.
+        I love you more than words can say, miss you more than I show, and want
+        nothing more than to see you truly happy.
+      </p>
+    </section>
   </main>
 
   <template id="memory-card-template">
-    <article class="memory-card" tabindex="0" role="button" aria-pressed="false">
+    <article
+      class="memory-card"
+      tabindex="0"
+      role="button"
+      aria-pressed="false"
+    >
       <div class="card-inner">
         <div class="card-face card-front">
           <div class="media-frame front-frame">
-            <img class="front-image" alt="" loading="lazy" decoding="async" />
+            <img
+              class="front-image"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
             <div class="missing-media" hidden></div>
           </div>
+
           <p class="card-hint">Tap to flip</p>
         </div>
 
         <div class="card-face card-back">
           <div class="back-content"></div>
-          <button class="flip-back" type="button">↩ Back to picture</button>
+
+          <button class="flip-back" type="button">
+            ↩ Back to picture
+          </button>
         </div>
       </div>
     </article>
   </template>
 
-  <audio id="background-music" loop preload="none"></audio>
-  <script src="script.js" defer></script>
+  <audio id="background-music" loop preload="metadata"></audio>
+
+  <script src="script.js?v=30" defer></script>
 </body>
 </html>
