@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#160822" />
+  <meta name="description" content="A birthday memory gallery for Havs" />
+  <title>Happy Birthday Havs ✨</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <header class="hero">
+    <p class="eyebrow">A tiny birthday universe</p>
+    <h1 id="site-title">Happy Birthday Havs ✨</h1>
+    <p id="site-subtitle" class="subtitle">The day the world quietly became a little brighter.</p>
+    <p id="site-instruction" class="instruction">Tap a picture to flip it.</p>
+
+    <a class="scroll-cue" href="#memory-gallery" aria-label="Scroll down to the memories">
+      <span id="scroll-label">Scroll down to explore</span>
+      <span class="scroll-arrow" aria-hidden="true">⌄</span>
+    </a>
+
+    <button id="music-button" class="music-button" type="button" hidden aria-pressed="false">
+      ♫ Play music
+    </button>
+  </header>
+
+  <main>
+    <section id="memory-gallery" class="gallery" aria-label="Birthday memories"></section>
+  </main>
+
+  <template id="memory-card-template">
+    <article class="memory-card" tabindex="0" role="button" aria-pressed="false">
+      <div class="card-inner">
+        <div class="card-face card-front">
+          <div class="media-frame front-frame">
+            <img class="front-image" alt="" loading="lazy" decoding="async" />
+            <div class="missing-media" hidden></div>
+          </div>
+          <p class="card-hint">Tap to flip</p>
+        </div>
+
+        <div class="card-face card-back">
+          <div class="back-content"></div>
+          <button class="flip-back" type="button">↩ Back to picture</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <audio id="background-music" loop preload="none"></audio>
+  <script src="script.js" defer></script>
+</body>
+</html>

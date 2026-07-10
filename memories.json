@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Happy Birthday Havs ✨",
+    "subtitle": "The day the world quietly became a little brighter.",
+    "instruction": "Tap a picture to flip it.",
+    "scrollHint": "Scroll down to explore",
+    "music": {
+      "enabled": false,
+      "src": "audio/background.mp3",
+      "buttonText": "Play music"
+    }
+  },
+  "memories": [
+    {
+      "title": "Memory 1",
+      "image": "images/Image1.jpeg",
+      "revealImage": "images/Image1A.jpeg"
+    },
+    {
+      "title": "Memory 2",
+      "image": "images/Image2.jpeg",
+      "video": "videos/Video2.mp4"
+    },
+    {
+      "title": "Memory 3",
+      "image": "images/Image3.jpeg",
+      "video": "videos/Video3.mp4"
+    },
+    {
+      "title": "Memory 4",
+      "image": "images/Image4.jpeg",
+      "video": "videos/Video4.mp4"
+    },
+    {
+      "title": "Memory 5",
+      "image": "images/Image5.jpeg",
+      "video": "videos/Video5.mp4"
+    },
+    {
+      "title": "Memory 6",
+      "image": "images/Image6.jpeg",
+      "video": "videos/Video6.mp4"
+    },
+    {
+      "title": "Memory 7",
+      "image": "images/Image7.jpeg",
+      "video": "videos/Video7.mp4"
+    },
+    {
+      "title": "Memory 8",
+      "image": "images/Image8.jpeg",
+      "text": "your laughter follows me around,\nthrough crowded rooms and quiet nights.\nAnd somehow every little thing\nfeels brighter than before."
+    },
+    {
+      "title": "Memory 9",
+      "image": "images/Image9.jpeg",
+      "text": "I'll forever be grateful\nfor every moment,\nevery smile,\nevery memory,\nand every piece of love"
+    },
+    {
+      "title": "Memory 10",
+      "image": "images/Image10.jpeg",
+      "text": "You don't even know\nhow much of my heart\nalways feels like home around you."
+    },
+    {
+      "title": "Memory 11",
+      "image": "images/Image11.jpeg",
+      "text": "Even when months pass without seeing you,\nit still feels like you’ve always been right here,\nquietly present in my life, simply by being you."
+    },
+    {
+      "title": "Memory 12",
+      "image": "images/Image12.jpeg",
+      "text": "I wish life could take a snapshot of this smile\nand keep it with you forever,\nbecause you deserve to smile like this\nevery single day."
+    },
+    {
+      "title": "Memory 13",
+      "image": "images/Image13.jpeg",
+      "text": "I just want your heart to stay light,\nYour days to feel warm and bright.\nYou mean more than I ever show,\nAnd I hope your happiness always grows."
+    }
+  ]
+}

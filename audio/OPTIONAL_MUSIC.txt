@@ -1,0 +1,6 @@
+No background music is enabled by default.
+To add music:
+1. Put a file named background.mp3 in this folder.
+2. Open memories.json.
+3. Change "enabled": false to "enabled": true.
+A Play music button will appear. Mobile browsers require the visitor to tap the button; autoplay is intentionally not used.

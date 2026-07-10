@@ -1,0 +1,15 @@
+Upload these exact files here (capital letters matter):
+Image1.jpeg
+Image1A.jpeg
+Image2.jpeg
+Image3.jpeg
+Image4.jpeg
+Image5.jpeg
+Image6.jpeg
+Image7.jpeg
+Image8.jpeg
+Image9.jpeg
+Image10.jpeg
+Image11.jpeg
+Image12.jpeg
+Image13.jpeg
